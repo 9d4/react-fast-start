@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production"
+=======
+    "start": "webpack --config webpack.dev.js --watch",
+    "build": "webpack --config webpack.prod.js"
+>>>>>>> refactor
   },
   "keywords": [],
   "author": "",
@@ -19,10 +24,21 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+<<<<<<< HEAD
     "css-loader": "^4.2.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.1.1"
+=======
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^4.2.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.1.3"
+>>>>>>> refactor
   }
 }
